@@ -71,7 +71,7 @@ started. But, it's important to note that the first time you run
 delta-flora on a repo it takes considerable amount of time rip the repo and
 produce method events.
 
-To make use easier, the Repository class has been designe to check for
+To make use easier, the Repository class has been designed to check for
 a file named methodevents.csv in the repository directory. If it exists
 and there are no commits with a later datestamp in the repo, then
 methodevents.csv is assumed to be current and it is loaded. If
